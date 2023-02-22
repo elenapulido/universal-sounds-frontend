@@ -1,11 +1,14 @@
-import React from 'react'
+import React from 'react';
+import Navbar from '../components/navbar/Navbar';
+
 
 
 export default function Home() {
 
     return (
-        <React.Fragment>
+        <div>
+            <Navbar />
             <h1>Hola Mundo</h1>
-        </React.Fragment>
+        </div>
     );
 }
