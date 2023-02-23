@@ -4,13 +4,15 @@
 
 
 .Cards {
-width: 30%;
-  margin-top: -52vh;
+
+  width: 30%;
+  gap: 5%;
   display: flex;
   flex-wrap: wrap;
- margin-top: 2vh;
-  height: 18vh;
-  padding: 0.5vh;
-  transition: all .2s ease-in-out;
+  flex-direction: column;
+  margin-top: 9vh;
+
+
+
 
 }

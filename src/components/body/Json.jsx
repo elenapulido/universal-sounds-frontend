@@ -1,4 +1,12 @@
-import Foto from './img/10.png'
+import Foto from './img/01.jpeg'
+import Foto2 from './img/02.jpg'
+import Foto3 from './img/03.jpg'
+import Foto4 from './img/04.jpg'
+import Foto5 from './img/05.jpg'
+import Foto6 from './img/06.png'
+
+
+
 const Json = [
     {
       "id": 1,
@@ -19,7 +27,7 @@ const Json = [
       "genre": "Rock Progresivo - Art Rock - Rock Psicodélico",
       "price": "49.99€",
       "description": "Octavo albúm conceptual del grupo británico Pink Floyd lanzado el 1 de marzo de 1973",
-      "image": Foto,
+      "image": Foto2,
       "tags": "Segunda mano - Bien conservado",
       "created_at": "2023-02-23T10:15:28.000000Z",
       "updated_at": "2023-02-23T10:15:28.000000Z"
@@ -31,7 +39,7 @@ const Json = [
       "genre": "Rock - Hard Rock - Rock and Roll",
       "price": "35.99€",
       "description": "Décimosexto en el Reino Unido y décimoctavo en los Estados Unidos álbum de estudio de la banda de rock británico The Rolling Stones, publicado en 1981",
-      "image": Foto,
+      "image": Foto3,
       "tags": "Nuevo - Plastificado - Perfectas condiciones",
       "created_at": "2023-02-23T10:15:28.000000Z",
       "updated_at": "2023-02-23T10:15:28.000000Z"
@@ -43,7 +51,7 @@ const Json = [
       "genre": "rock progresivo",
       "price": "24.99€",
       "description": "Primer albúm estudio del grupo estadounidense The Velvet Underground, lanzado en 1967 con la colaboración en las voces de la cantante alemana Nico",
-      "image": Foto,
+      "image": Foto4,
       "tags": "Primera mano - Plastificado - Perfectas condiciones",
       "created_at": "2023-02-23T10:15:28.000000Z",
       "updated_at": "2023-02-23T10:15:28.000000Z"
@@ -55,7 +63,7 @@ const Json = [
       "genre": "Glam Rock - Art Rock",
       "price": "45.99€",
       "description": "Sexto álbum estudio del artista británico David Bowie publicado en 1973",
-      "image": Foto,
+      "image": Foto5,
       "tags": "Usado - Carátula con pequeños desperfectos - Disco bien conservado",
       "created_at": "2023-02-23T10:15:28.000000Z",
       "updated_at": "2023-02-23T10:15:28.000000Z"
@@ -67,7 +75,7 @@ const Json = [
       "genre": "Pop Rock - Funk Rock",
       "price": "28.99€",
       "description": "Décimo álbum del grupo de rock británico Queen. El disco se estrenó en Reino Unido el 21 de mayo de 1982",
-      "image": Foto,
+      "image": Foto6,
       "tags": "Segunda mano - Carátula semiconservada - Buen sonido",
       "created_at": "2023-02-23T10:15:28.000000Z",
       "updated_at": "2023-02-23T10:15:28.000000Z"
