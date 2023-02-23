@@ -7,9 +7,8 @@ export default function Home() {
 
     return (
         <div>
-            
-            <h1>Hola Mundo</h1>
-            <SearchBar />
+            <Navbar />
+          
         </div>
     );
 }
