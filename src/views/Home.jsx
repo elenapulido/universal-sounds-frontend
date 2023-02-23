@@ -1,5 +1,8 @@
 import React from 'react';
-import SearchBar from '../components/search-bar/SearchBar';
+
+import Header from '../components/header/Header';
+
+
 
 
 
@@ -7,8 +10,8 @@ export default function Home() {
 
     return (
         <div>
-            <Navbar />
-          
+
+            <Header />
         </div>
     );
 }
