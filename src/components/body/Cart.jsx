@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const App = () => {
+const Cart = () => {
     const [cart, setCart] = useState(JSON.parse(localStorage.getItem("cart")) || []);
     const [totalItem, setTotalItem] = useState(totalItem2());
     const [totalCart, setTotalCart] = useState(totalCart());
@@ -11,6 +11,7 @@ const App = () => {
         setTotalItem(totalItem2());
         setTotalCart(totalCart());
     }, [cart]);
+
 
     const printCart = () => {
         return cart.map((item) => {
@@ -102,5 +103,8 @@ const App = () => {
                 });
                 setCart(newCart);
             }
+        }
+    }
 
+}
             export default Cart;
