@@ -1,29 +1,29 @@
 import React, { useState, useEffect } from 'react';
 import ButtonAdd from './ButtonAdd';
+import Json from './Json';
+import Foto from './img/10.png'
+import './Body.css';
 
 function Body() {
-  
-  const [products, setProducts] = useState([]);
 
-  useEffect(() => {
-    fetch('url_del_json')
-      .then(response => response.json())
-      .then(data => setProducts(data.products))
-      .catch(error => console.error(error))
-  }, [])
+  const cards = Json
 
   return (
-    <div>
-      {products.map(product => (
-        <div key={product.id}>
-          <img src= "https://m.media-amazon.com/images/I/61B0IouivwL._SY355_.jpg" alt="" />
-          <h3>{product.bandName}</h3>
-          <h3>{product.albumName}</h3>
-          <p>{product.price}</p>
-          <ButtonAdd />
-        </div>
-      ))}
+    <div className= "ContainerCards">
+      <div className="Cards">
+        {cards.map(product => (
+          <div key={product.id}>
+            <img src={Foto} alt="" />
+            <h3>{product.bandName}</h3>
+            <h3>{product.albumName}</h3>
+            <p>{product.price}</p>
+            <ButtonAdd />
+           </div>
+        ))}
+      </div>
+     
     </div>
+
   );
 }
 
