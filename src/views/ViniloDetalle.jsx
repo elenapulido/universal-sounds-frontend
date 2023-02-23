@@ -43,12 +43,7 @@ function ViniloDetalle() {
                 <li class="mt-10">
                     <div class="flex">
                         <div class="flex-shrink-0">
-                            <div class="flex items-center justify-center w-12 h-12 text-white rounded-md">
-                                <svg width="20" height="20" fill="currentColor" class="w-6 h-6" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
-                                    </path>
-                                </svg>
-                            </div>
+                            
                         </div>
                         <div class="ml-4">
                             <h5 class="text-lg font-bold leading-6 text-gray-900 dark:text-white">
@@ -63,12 +58,7 @@ function ViniloDetalle() {
                 <li class="mt-10">
                     <div class="flex">
                         <div class="flex-shrink-0">
-                            <div class="flex items-center justify-center w-12 h-12 text-white  rounded-md">
-                                <svg width="20" height="20" fill="currentColor" class="w-6 h-6" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
-                                    </path>
-                                </svg>
-                            </div>
+                            
                         </div>
                         <div class="ml-4">
                             <h5 class="text-lg font-bold leading-6 text-gray-900 dark:text-white">
@@ -82,14 +72,7 @@ function ViniloDetalle() {
                 </li>
                 <li class="mt-10">
                     <div class="flex">
-                        <div class="flex-shrink-0">
-                            <div class="flex items-center justify-center w-12 h-12 text-white  rounded-md">
-                                <svg width="20" height="20" fill="currentColor" class="w-6 h-6" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
-                                    </path>
-                                </svg>
-                            </div>
-                        </div>
+                       
                         <div class="ml-4">
                             <h5 class="text-lg font-bold leading-6 text-gray-900 dark:text-white">
                                 Precio
@@ -103,12 +86,7 @@ function ViniloDetalle() {
                 <li class="mt-10">
                     <div class="flex">
                         <div class="flex-shrink-0">
-                            <div class="flex items-center justify-center w-12 h-12 text-white  rounded-md">
-                                <svg width="20" height="20" fill="currentColor" class="w-6 h-6" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
-                                    </path>
-                                </svg>
-                            </div>
+                            
                         </div>
                         <div class="ml-4">
                             <h5 class="text-lg font-bold leading-6 text-gray-900 dark:text-white">
@@ -123,12 +101,7 @@ function ViniloDetalle() {
                 <li class="mt-10">
                     <div class="flex">
                         <div class="flex-shrink-0">
-                            <div class="flex items-center justify-center w-12 h-12 text-white  rounded-md">
-                                <svg width="20" height="20" fill="currentColor" class="w-6 h-6" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
-                                    </path>
-                                </svg>
-                            </div>
+                            
                         </div>
                         <div class="ml-4">
                             <h5 class="text-lg font-bold leading-6 text-gray-900 dark:text-white">
@@ -139,19 +112,28 @@ function ViniloDetalle() {
                             </p>
                         </div>
                     </div>
-                </li>
-            </ul>
-            <div class="product_meta singletags">
+                    <div class="flex">
+                        <div class="flex-shrink-0">
+                            
+                        </div>
+                        <div class="ml-4">
+                        <div class="product_meta singletags">
 
 	
 	
 		
 
 	
-	<span class="posted_in" id='categoria'>Category: <a href="https://oldrecords.com.br/categoria-produto/funk-soul-jazz/" rel="tag">Funk / Soul / Jazz</a></span>
-	<span class="tagged_as" id='tags'>Tags: <a href="https://oldrecords.com.br/produto-tag/12-single/" rel="tag">12" / Singles / Mix / Promo</a> <a href="https://oldrecords.com.br/produto-tag/importados/" rel="tag">Importados</a></span>
-	
+<span class="posted_in" id='categoria'>Categoría: <a href="https://oldrecords.com.br/categoria-produto/funk-soul-jazz/" rel="tag">Funk / Soul / Jazz</a></span>
+<br></br>
+<span class="tagged_as" id='tags'>Tags: <a href="https://oldrecords.com.br/produto-tag/12-single/" rel="tag">12" / Singles / Mix / Promo</a> <a href="https://oldrecords.com.br/produto-tag/importados/" rel="tag">Importados</a></span>
+
 </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            
         </div>
        
     </div>
