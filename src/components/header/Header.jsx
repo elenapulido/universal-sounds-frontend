@@ -12,7 +12,9 @@ const Header = () => {
         <SearchBar />
         <Link to="/cart"><img src={icono} className="w-10 h-13" alt="Descripción de la imagen" /></Link>   
       </div>
+      <div class="border border-solid w-404 h-0 my-4"></div>
     </header>
+    
   )
 }
 
