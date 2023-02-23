@@ -1,5 +1,7 @@
 import React from 'react';
 import Navbar from '../components/navbar/Navbar';
+import './Home.css';
+import ViniloDetalle from './ViniloDetalle';
 
 
 
@@ -8,7 +10,10 @@ export default function Home() {
     return (
         <div>
             <Navbar />
-            <h1>Hola Mundo</h1>
+             <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1>
+    <ViniloDetalle />
         </div>
     );
 }
