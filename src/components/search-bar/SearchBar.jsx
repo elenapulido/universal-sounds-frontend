@@ -1,14 +1,15 @@
 import React from 'react';
-import { getPosts } from "../../api/axios";
+import { getVinils} from "../../api/axios";
 import { useState, useEffect } from 'react';
+import Bar from './Bar';
 
 function SearchBar() {
-    const [posts, setPosts] = useState([]);
+    const [vinils, setVinils] = useState([]);
     const [searchResults, setSearchResults] = useState([]);
 
     useEffect(() => {
-        getPosts().then(json => {
-            setPosts(json)
+        getVinils().then(json => {
+            setVinils(json)
             return json
         }).then(json => {
             setSearchResults(json)
@@ -16,9 +17,11 @@ function SearchBar() {
 
     }, [])
 
-    const content = ''
-
-    return content
+    return (
+        <div>
+            <Bar vinils={vinils} setSearchResults={setSearchResults} />
+        </div>
+    )
 }
 
 export default SearchBar

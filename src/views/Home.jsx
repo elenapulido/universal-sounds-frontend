@@ -1,5 +1,5 @@
 import React from 'react';
-import SearchBar from '../components/search-bar/SearchBar';
+import Navbar from '../components/header/Header';
 
 
 
@@ -8,7 +8,6 @@ export default function Home() {
     return (
         <div>
             <Navbar />
-          
         </div>
     );
 }
